@@ -10,7 +10,7 @@
     <h2>Settings</h2>
 
     <form action="quiz.php" method="post">
-        <label>Operator:</label><br>
+        <label>Select Operator:</label><br>
         <input type="radio" id="addition" name="operator" value="addition" required>
         <label for="addition">Addition</label><br>
         <input type="radio" id="subtraction" name="operator" value="subtraction" required>
@@ -18,7 +18,7 @@
         <input type="radio" id="multiplication" name="operator" value="multiplication" required>
         <label for="multiplication">Multiplication</label><br><br>
 
-        <label>Level:</label><br>
+        <label>Select Level of Difficulty:</label><br>
         <input type="radio" id="easy" name="level" value="1" required>
         <label for="easy">Easy</label><br>
         <input type="radio" id="moderate" name="level" value="2" required>
