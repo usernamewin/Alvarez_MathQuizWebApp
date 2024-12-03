@@ -9,7 +9,7 @@
     <h1>Math Quiz</h1>
     <h2>Settings</h2>
 
-    <form action="">
+    <form action="quiz.php" method="post">
         <label>Operator:</label><br>
         <input type="radio" id="addition" name="operator" value="addition" required>
         <label for="addition">Addition</label><br>
@@ -27,10 +27,10 @@
         <label for="hard">Hard</label><br><br>
 
         <label for="items">Number of Item: </label>
-        <input type="number" name="items" id="items" min="1" max="50" required><br><br>
+        <input type="number" name="items" id="items" min="1" max="50" placeholder="1-50" required><br><br>
 
         <label for="difference">Max Difference of choices from the correct answer: </label>
-        <input type="number" name="difference" id="difference" min="1" max="10" required><br><br>
+        <input type="number" name="difference" id="difference" min="1" max="10" placeholder="1-10" required><br><br>
 
         <button type="submit">Start Quiz</button>
     </form>
